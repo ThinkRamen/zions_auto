@@ -1,0 +1,21 @@
+@import '~bootstrap/scss/bootstrap';
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 90vh;
+	width: 100%;
+	background-image: url(https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200);
+	background-repeat: no-repeat;
+	background-size: cover;
+	.button-group {
+		display: flex;
+		justify-content: space-evenly;
+		font-weight: bold;
+		Button {
+			font-size: 1.5em;
+			padding: 0.5em 1em;
+		}
+	}
+}
